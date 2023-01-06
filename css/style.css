@@ -13,7 +13,7 @@ ol{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 25vh; 
+  margin-top: 21vh; 
 }
 li{
   list-style-type: disc;
@@ -22,7 +22,7 @@ li{
   justify-content: center;
   align-items: center;
   padding: 5px;
-  width: 360px;
+  width: 400px;
 }
 li p {
   font-size: 22px;
@@ -88,7 +88,7 @@ button:focus {
   font-size: 16px;
   text-align: center;
   color:rgba(255,255,255,.8);
-  margin-top: 13%;
+  margin-top: 10%;
 }
 .signature-link{
   font-size: 18px;
