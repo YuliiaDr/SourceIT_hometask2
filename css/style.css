@@ -1,0 +1,103 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: url('../images/1619771100_16-phonoteka_org-p-matematika-informatika-fizika-fon-16.jpg') no-repeat center;
+  background-size: cover;
+}
+.hidden {
+  text-indent: -9999px;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+ol{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 25vh; 
+}
+li{
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 360px;
+}
+li p {
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: #b29de0;
+  color: black;
+  transition: all 400ms ease-in-out;
+}
+li p:hover,
+li p:focus{
+  transform: scale(1.1);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 400;
+  padding: 50px;
+  width: 250px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  background-color: #F1EDF9;
+  transition: all 300ms ease-in-out;
+}
+form:hover,
+form:focus {
+  transform: scale(1.1);
+}
+label{
+  font-size: 22px;
+}
+input {
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0.2px solid black;
+  border-radius: 10px;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  background: linear-gradient(180deg, #D140A0 0%, #725DF3 100%);;
+  color: white;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  border: none;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  transform: scale(1.1);
+}
+.signature {
+  font-family: 'PT Mono', monospace;
+  font-size: 16px;
+  text-align: center;
+  color:rgba(255,255,255,.8);
+  margin-top: 13%;
+}
+.signature-link{
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #b29de0;
+  transition: all 300ms ease-in-out;
+}
+.signature-link:hover,
+.signature-link:focus{
+  cursor: pointer;
+}
